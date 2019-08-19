@@ -58,9 +58,9 @@
 	echo $url;
     $json            = json_decode(curl_get_contents($url), true);
 	print_r($json);
-    $image_url       = $json['urls']['regular'];
-    $image_user_name = $json['user']['name'];
-    $image_user_url  = $json['user']['links']['html'];
+    $image_url       = $json[0]['urls']['regular'];
+    $image_user_name = $json[0]['user']['name'];
+    $image_user_url  = $json[0]['user']['links']['html'];
 
     echo json_encode(array('success' => 1, 'url' => $image_url, 'image_user_name' => $image_user_name, 'image_user_url' => $image_user_url));
   }
