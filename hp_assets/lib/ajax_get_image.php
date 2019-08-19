@@ -56,6 +56,7 @@
     // We're fetching from Unsplash's API
     $url             = "https://api.unsplash.com/photos/random?count=1&client_id=" . $config['protected']['unsplash_client_id'];
     $json            = json_decode(curl_get_contents($url), true);
+	echo json_encode($json);
     $image_url       = $json['urls']['regular'];
     $image_user_name = $json['user']['name'];
     $image_user_url  = $json['user']['links']['html'];
