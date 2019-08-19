@@ -1,7 +1,7 @@
 {
   "title" : "My Homepage",
   "unlock_pattern" : "up up space down",
-  "clock_format" : "h:i A/nj/n/Y",
+  "clock_format" : "h:i A j/n/Y",
   "hover_color" : "#999",
   "time_to_refresh_bg" : 20000,
   "idle_timer" : 60000,
