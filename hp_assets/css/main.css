@@ -14,7 +14,7 @@ body.menu-shown #bg-overlay {opacity: 0.3;}
 .bg {border-radius: 5px; background-color: rgba(0, 0, 0, .5); padding: 20px;}
 .bg a {color: #fff;}
 
-#links-wrap {font-size: 70px; width: 50%; max-height: 50%; margin: 25% auto 0; overflow: hidden; padding: 50px; position: relative; overflow-y: scroll;}
+#links-wrap {font-size: 70px; width: 50%;margin: 25% auto 0; overflow: hidden; padding: 50px; position: relative;}
 #links-wrap a {transition: .3s all;}
 #links-wrap .link {display: inline-block; float: left; text-align: center;}
 
