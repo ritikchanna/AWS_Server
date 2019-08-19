@@ -55,6 +55,7 @@
   } else if (!empty($config['protected']['unsplash_client_id'])) {
     // We're fetching from Unsplash's API
     $url             = "https://api.unsplash.com/photos/random?count=1&client_id=" . $config['protected']['unsplash_client_id'];
+	echo $url;
     $json            = json_decode(curl_get_contents($url), true);
 	echo json_encode($json);
     $image_url       = $json['urls']['regular'];
