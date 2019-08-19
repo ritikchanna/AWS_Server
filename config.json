@@ -1,7 +1,7 @@
 {
   "title" : "My Homepage",
   "unlock_pattern" : "up up space down",
-  "clock_format" : "h:i A j/n/Y",
+  "clock_format" : "h:iA  j/n/Y",
   "hover_color" : "#999",
   "time_to_refresh_bg" : 20000,
   "idle_timer" : 60000,
@@ -35,9 +35,9 @@
       "link" : "{{cur}}:3306/phpMyAdmin"
     },
     {
-      "alt" : "Plex",
-      "icon" : "film",
-      "link" : "{{cur}}:32400/web/"
+      "alt" : "Torrent Stream/Download",
+      "icon" : "cloud-download",
+      "link" : "{{cur}}:9000"
     }
   ],
   "protected": {
